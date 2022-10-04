@@ -1,0 +1,7 @@
+class FirstClass
+{
+    public static void main(string Var[])
+    {
+        system.out.println("Hello World shabi");
+    }
+}
