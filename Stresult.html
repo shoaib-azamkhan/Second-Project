@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head> <title>Students Result </title>
+
+      <script type="text/javascript">
+       Rollno=2224;
+       Stname="Shoaib Azam";
+       English=34;
+       Urdu=35;
+       Computer=5;
+       Total=250;
+       Obmarks=English+Urdu+Computer;
+       Percentage=Obmarks*100/Total;
+       Average=Obmarks/3;
+       if(Percentage>33)
+       {
+        Status="pass"
+       }
+       else
+       {
+        Status="Fail"
+       }
+
+       if(Percentage>=70)
+       {
+        Grade="A"
+       }
+       else if(Percentage>=60)
+       {
+        Grade="B"
+       }
+       else if(Percentage>=50)
+       {
+        Grade="C"
+       }
+       else if(Percentage>=40)
+       {
+        Grade="D"
+       }
+       else
+       {
+        Grade="F"
+       }
+
+
+
+        
+      </script>
+     	
+</head>
+<body>
+  <script type="text/javascript">
+    document.write ("<h1 align='center'> <font color='#FF0000' face='ravie'> Result Card </font> </h1> <table width='400'border='1' align='center'><tr><td width='150'> Roll No</td> <td>document.write(Rollno);</td></tr></table>");
+
+
+  </script>
+
+
+</body>
+</html>
